@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		BD049B1C286A0159008ACD7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD049B1B286A0159008ACD7B /* AppDelegate.swift */; };
 		BD049B1E286A0159008ACD7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD049B1D286A0159008ACD7B /* SceneDelegate.swift */; };
-		BD049B20286A0159008ACD7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD049B1F286A0159008ACD7B /* ViewController.swift */; };
 		BD049B23286A0159008ACD7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD049B21286A0159008ACD7B /* Main.storyboard */; };
 		BD049B26286A0159008ACD7B /* to_do_list.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD049B24286A0159008ACD7B /* to_do_list.xcdatamodeld */; };
 		BD049B28286A015B008ACD7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD049B27286A015B008ACD7B /* Assets.xcassets */; };
 		BD049B2B286A015B008ACD7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD049B29286A015B008ACD7B /* LaunchScreen.storyboard */; };
+		BD049B33286A0477008ACD7B /* ToDoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD049B32286A0477008ACD7B /* ToDoTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD049B18286A0159008ACD7B /* to-do list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "to-do list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD049B1B286A0159008ACD7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD049B1D286A0159008ACD7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD049B1F286A0159008ACD7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD049B22286A0159008ACD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD049B25286A0159008ACD7B /* to_do_list.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = to_do_list.xcdatamodel; sourceTree = "<group>"; };
 		BD049B27286A015B008ACD7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD049B2A286A015B008ACD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD049B2C286A015B008ACD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD049B32286A0477008ACD7B /* ToDoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,7 @@
 		BD049B0F286A0159008ACD7B = {
 			isa = PBXGroup;
 			children = (
+				BD049B32286A0477008ACD7B /* ToDoTableTableViewController.swift */,
 				BD049B1A286A0159008ACD7B /* to-do list */,
 				BD049B19286A0159008ACD7B /* Products */,
 			);
@@ -60,7 +61,6 @@
 			children = (
 				BD049B1B286A0159008ACD7B /* AppDelegate.swift */,
 				BD049B1D286A0159008ACD7B /* SceneDelegate.swift */,
-				BD049B1F286A0159008ACD7B /* ViewController.swift */,
 				BD049B21286A0159008ACD7B /* Main.storyboard */,
 				BD049B27286A015B008ACD7B /* Assets.xcassets */,
 				BD049B29286A015B008ACD7B /* LaunchScreen.storyboard */,
@@ -141,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD049B20286A0159008ACD7B /* ViewController.swift in Sources */,
 				BD049B1C286A0159008ACD7B /* AppDelegate.swift in Sources */,
 				BD049B1E286A0159008ACD7B /* SceneDelegate.swift in Sources */,
+				BD049B33286A0477008ACD7B /* ToDoTableTableViewController.swift in Sources */,
 				BD049B26286A0159008ACD7B /* to_do_list.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,7 +303,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "sample.to-do-list";
+				PRODUCT_BUNDLE_IDENTIFIER = sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -330,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "sample.to-do-list";
+				PRODUCT_BUNDLE_IDENTIFIER = sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
